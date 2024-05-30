@@ -1,0 +1,29 @@
+.FilterCity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FilterCity__title{
+    font-weight: 600;
+    margin: 0.8rem;
+}
+.FilterCity__listaCity{
+   display: flex;
+   flex-direction: column;    
+}
+.FilterCity__listaCity__value{
+    font-size: 0.9rem;
+    padding: 0.2rem;
+    margin-right: 5rem;
+    cursor: pointer;
+    transition: transform 200ms ease;
+    &:hover{
+        transform: scale(1.1);
+        background-color: rgb(250, 87, 87);
+       
+    }
+    
+
+
+}

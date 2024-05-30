@@ -1,0 +1,17 @@
+.OtherHotel{
+    margin-bottom: 0.5rem;
+}
+.OtherHotel__ContainerCard{
+    display: flex;
+    justify-content: center;
+    gap:  2rem;
+    margin-top: 1rem;
+}
+.OtherHotel__city{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+.OtherHotel__nameCity{
+    color: red;
+}

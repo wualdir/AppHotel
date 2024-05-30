@@ -1,0 +1,90 @@
+.ReservationBook{
+    overflow: hidden;
+    width: 100%;
+    max-width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.6rem;
+    box-shadow: 4px 3px 6px 6px #00000026;
+    transition: transform 100ms ease;
+    
+    &:hover{
+        transform: scale(1.03);
+    }
+   
+}
+
+.ReservationBook__headerImg{
+    width: 100%;  
+}
+.ReservationBook__headerImg__img{
+    width: 100%;  
+    
+}
+.ReservationBook__info
+{
+    display: flex;
+    flex-direction: column;
+}
+.ReservationBook__name{
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.ReservationBook__infocity{
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    
+}
+.ReservationBook__comment{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+.ReservationBook__list{
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+   
+}
+.ReservationBook__label{
+     display: flex;
+  
+}
+.ReservationBokk__Item{
+    font-size: 0.9rem;
+    font-weight: 600;
+   
+}
+.ReservationBook__Value{
+    padding: 0.5rem;
+    margin-right: 4rem;
+}
+.ReservationBook__button{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(238, 88, 88);
+    color: white;
+    padding: 0.4rem 1.5rem 0.7rem;
+  
+}
+@media (width>750px) {
+ 
+    .ReservationBook{
+        display: flex;
+        max-width: 40rem;
+        padding: 0.2rem; 
+    }
+    
+    .ReservationBook__headerImg__img{
+       width: 10rem;
+       
+       
+    }
+    .ReservationBook__button{
+       margin-right: 2rem;
+    }
+
+}

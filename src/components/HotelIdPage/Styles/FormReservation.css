@@ -1,0 +1,27 @@
+.FormReservation{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+}
+.FormReservation__label{
+    padding: 0.4rem;
+}
+.FormReservation__input{
+    padding: 0.5rem;
+    border: 1px solid rgb(116, 115, 115);
+    width: 15rem;
+    
+}
+.FormReservation__button{
+    padding: 0.5rem;
+    color: white;
+    background-color: red;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.5rem;
+    
+}

@@ -1,0 +1,57 @@
+.divContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+    
+}
+
+.formRegister__title{
+    width: 100%;
+    max-width: 23rem;
+    font-size: 1.5rem;
+    color: red;
+    border: 1px solid rgb(185, 184, 184);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.7rem 0.7rem 0.1rem 0;
+    border-bottom: none;   
+}
+
+.formRegister{
+    border: 1px solid rgb(185, 184, 184);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 1.5rem;
+    max-width: 23rem;
+    width: 100%;
+   
+}
+
+.formRegister__info--label{
+    margin: 0.7rem;
+}
+.formRegister__info--title{
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+   
+}
+.formRegister__info--value{
+    border: 0.1rem solid rgb(204, 202, 202);
+    padding: 0.5rem;
+    display: flex;
+    width: 15rem;
+}
+.formRegister__button{
+    padding: 1rem 6rem;
+    color: rgb(238, 235, 235);
+    background-color: rgb(247, 71, 71);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+.RegisterError{
+    color: red;
+}

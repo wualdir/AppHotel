@@ -1,0 +1,57 @@
+
+.LoginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ImagenLogin{
+   margin-top: 0.3rem;
+}
+.ImagenLogin__img{
+    width: 10rem;
+}
+.formLogin__title{
+    width: 100%;
+    max-width: 23rem;
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 0.3rem 0.4rem 0.1rem 0;
+   
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    max-width: 22rem;
+    width: 100%;  
+}
+
+.formLogin__info--label{
+    margin: 0.5rem;
+}
+.formLogin__info--title{
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+}
+.formLogin__info--value{
+    border: 0.1rem solid rgb(204, 202, 202);
+    padding: 0.5rem;
+    display: flex;
+    width: 15rem;
+    margin: 0.3rem;
+}
+.formLogin__button{
+    padding: 0.6rem 6rem;
+    color: rgb(238, 235, 235);
+    background-color: rgb(247, 71, 71);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+.smsError{
+    color: red;
+}

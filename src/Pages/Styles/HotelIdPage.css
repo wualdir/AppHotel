@@ -1,0 +1,51 @@
+.ContainerInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ContainerInfo__name{
+margin-top: 1rem;
+}
+.ContainerInfo__Califi2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ContainerInfo__calificacion{
+    margin-top: 0.3rem;
+}
+.ContainerInfo__rating{
+    margin: 0.2rem;
+}
+.ContainerInfo__Mapa{
+    width: 28rem;
+    margin-top: 0.4rem;
+}
+.ContainerInfo__description{
+   width: 100%;
+   max-width: 90%;
+   margin-top: 1rem;
+
+}
+.ContainerInfo__description__country{
+    font-weight: bold;
+    margin-top: 0.3rem;
+}
+.ContainerInfo__description__info{
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+
+}
+.ContainerInfo__detalle{
+    width: 100%;
+    max-width: 90%;
+    color: rgb(48, 47, 47);
+}
+.ContainerInfo__reservLogin{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}

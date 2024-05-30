@@ -1,0 +1,20 @@
+.FilterName{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.FilterName__form{
+    display: flex;
+    justify-content: center;
+}
+.FilterName__form__input{
+    border: 1px solid rgb(170, 168, 168);
+    width: 13rem;
+    border-radius: 0.3rem 0 0 0.3rem;
+}
+.FilterName__form__button{
+    padding: 0.8rem;
+    color: white;
+    background-color: rgb(248, 59, 59);
+    width: 5.5rem;
+    border-radius: 0 0.3rem 0.3rem 0;
+}

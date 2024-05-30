@@ -1,0 +1,26 @@
+.HomePage__SearchName{
+        margin-top: 2rem;
+}
+.HomePage{
+        display: grid;
+        grid-template-columns: max-content 1fr;
+       
+}
+.HomePage__FilterContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3rem;
+        margin-right: 7rem;  
+}
+.HomePage__FilterContainer__title{
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-right: 6rem;      
+}
+.HomePage__ContainCards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(18rem ,1fr));
+        justify-items: center;
+        margin-top: 1rem;
+}
